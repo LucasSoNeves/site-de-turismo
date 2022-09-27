@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+/*cabeçalho*/
+
+header {
+    background-color: #0f44f0;
+}
+
+#logo {
+   margin-bottom: -50px;
+   padding-top: 10px;
+}
+
+/*menu*/
+
+nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 25px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #1d3eac;
+    color: white;
+    transition-duration: 1s;
+    border-radius: 10px;
+}
+
+/*Sub menu*/
+
+.dp-menu ul li ul{
+    display: none;
+    position: relative;
+    background-color: #2657f8;  
+}
+
+.dp-menu ul ul li {
+    text-align: center;
+}
+
+nav ul li ul li {
+    margin: 0px;
+    padding: 0px;
+}
+
+.dp-menu ul li:hover ul{
+    display: block;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.dp-menu ul li:hover ul li{
+    text-align: center;
+}
+
+.dp-menu ul ul {
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+}
+
+.dp-menu ul ul li a {
+    display: inline-block;
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav ul li ul li a:hover {
+    background-color: #1d3eac;
+    color: white;
+    transition-duration: 1s;
+    border-radius: 10px;
+}
+
+/*Conteúdo principal*/
+
+main {
+    background-image: url("../background/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100vw;
+    height: 88vh;
+    text-align: center;
+    margin-top:-1px;
+    overflow-x: hidden;
+}
+
+main h1, h2 {
+    color: rgb(0, 0, 0);
+    width: 500px;
+    margin: auto;
+}
+
+.box h1 {
+    margin-top: 17%;
+}
