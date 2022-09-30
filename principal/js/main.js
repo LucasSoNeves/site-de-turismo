@@ -1,15 +1,16 @@
-function ClickMenu() {
-    if (itens.style.display == 'block') {
-        itens.style.display = 'none'
-    } else {
-        itens.style.display = 'block'
-    }
-}
+let count = 1;
 
-function mudouTamanho() {
-    if (window.innerWidth >=768) {
-        itens.style.display =='block'
-    } else {
-        itens.style.display = 'none'
+document.getElementById("radio1").checked = true;
+
+setInterval(function() {
+    nextImage();
+}, 5000);
+
+function nextImage() {
+    count ++;
+    if (count > 5) {
+        count = 1;
     }
+
+    document.getElementById("radio" + count).checked = true;
 }
