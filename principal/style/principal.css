@@ -6,6 +6,7 @@
 body {
     width: 100vw;
     height: 100vh;
+    overflow-y: hidden;
 }
 
 /*cabeçalho*/
@@ -14,9 +15,13 @@ header {
     background-color: #0f44f0;
 }
 
+nav ul {
+    width: 100vw;
+    background-color: #0f44f0;
+}
+
 #logo {
    margin-bottom: -50px;
-   padding-top: 10px;
 }
 
 /*menu*/
@@ -110,8 +115,9 @@ main {
 
 main h1, h2 {
     color: rgb(0, 0, 0);
-    width: 500px;
+    width: 100vw;
     margin: auto;
+
 }
 
 .box h1 {
