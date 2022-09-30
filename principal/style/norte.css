@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url('../background/background.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div#voltar {
+    padding: 10px;
+    background-repeat: no-repeat;
+}
+
+main {
+    margin: auto;
+    width: 1200px;
+    height: 400px;
+    margin-top: 10px;
+}
+
+main img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+main h1 {
+    text-align: center;
+    margin-top: -240px;
+    font-size: 50px;
+}
+
+main a {
+    color: white;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: aqua;
+    transition: 1s;
+}
