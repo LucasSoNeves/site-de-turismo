@@ -171,15 +171,15 @@ main p {
     background-color: white;
 }
 
-/*PT2*/
-
-.pt2 img {
+.pt2, .pt3, .pt4, .pt5 img {
     padding: 10px;
 }
 
 .pt2 h2 {
     padding-top: 10px;
 }
+
+/*PT2*/
 
 #radio6:checked ~ .navigation-auto .auto-btn1 {
     background-color: white;
@@ -223,14 +223,6 @@ main p {
 
 /*PT3*/
 
-.pt3 img {
-    padding: 10px;
-}
-
-.pt3 h2 {
-    padding-top: 10px;
-}
-
 #radio11:checked ~ .navigation-auto .auto-btn1 {
     background-color: white;
 }
@@ -273,14 +265,6 @@ main p {
 
 /*PT4*/
 
-.pt4 img {
-    padding: 10px;
-}
-
-.pt4 h2 {
-    padding-top: 10px;
-}
-
 #radio16:checked ~ .navigation-auto .auto-btn1 {
     background-color: white;
 }
@@ -322,14 +306,6 @@ main p {
 }
 
 /*PT5*/
-
-.pt5 img {
-    padding: 10px;
-}
-
-.pt5 h2 {
-    padding-top: 10px;
-}
 
 #radio21:checked ~ .navigation-auto .auto-btn1 {
     background-color: white;
